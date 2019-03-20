@@ -1,0 +1,50 @@
+@import "_modules/_bits";
+
+#nav-menu {
+    width: 100%;
+    max-height: 120px;
+    overflow: hidden;
+	.nav-desktop {
+        ul {
+            list-style-type: none;
+            display: inline-block;
+            li {
+                width: 15vw;
+                min-width: 115px;
+                margin: 0 auto;
+                a {
+
+                }
+            }
+        }
+        img {
+            display: inline-block;
+            width: auto;
+            max-height: 150px;
+        }
+	}   
+}
+
+.nav-footer {
+    ul {
+        list-style-type: none;
+        display: inline-block;
+        li {
+            width: 15vw;
+            min-width: 115px;
+            margin: 0 auto;
+            a {
+
+            }
+        }
+    }
+    img {
+        display: inline-block;
+        width: auto;
+        max-height: 150px;
+    }
+}
+
+.copyright {
+
+}

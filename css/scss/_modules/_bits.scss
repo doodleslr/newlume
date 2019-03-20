@@ -1,0 +1,46 @@
+//text colours
+$yellow: #e5af0d;
+$purple: #3b3355;
+$darkblu: #000022;
+
+
+//media queries
+$xtra-large:"screen and (min-width: 992px)";
+$large:"(min-width: 768px) and (max-width: 991px)";
+$medium:"(min-width: 600px) and (max-width: 767px)";
+$small:"(min-width: 480px) and (max-width: 599px)";
+$xtra-small:"only screen and (max-width: 479px)";
+
+@mixin XL {
+    @media #{$xtra-large} {
+        @content;
+    }
+}
+@mixin LG {
+    @media #{$large} {
+        @content;
+    }
+}
+@mixin MD {
+    @media #{$medium} {
+        @content;
+    }
+}
+@mixin SM {
+    @media #{$small} {
+        @content;
+    }
+}
+@mixin XS {
+    @media #{$xtra-small} {
+        @content;
+    }
+}
+
+//additional mixins
+@mixin borderRadius {
+    -webkit-border-radius: 5px 15px 5px 15px;
+    -moz-border-radius: 5px 15px 5px 15px;
+    border-radius: 5px 15px 5px 15px;
+}
+//@include borderRadius();

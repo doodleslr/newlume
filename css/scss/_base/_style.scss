@@ -1,0 +1,16 @@
+@import "_modules/_bits";
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   #9ca6c9;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #9ca6c9;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #9ca6c9;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #9ca6c9;
+}
