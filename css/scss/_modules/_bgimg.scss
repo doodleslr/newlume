@@ -1,30 +1,18 @@
 @import "_modules/_bits";
-.clientBG {
-	background-position: 50% 75%;
-	background-size: cover;
+
+#nav-menu {
+    background-image: linear-gradient(to bottom right, $purple, $darkblu);
+}
+#splash {
+    background-image: linear-gradient(to bottom right, $yellow, $purple, $darkblu);
+}
+.customer-reviews {
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-	box-shadow: inset 0 0 600px #2f2b2c;
-	background-color: #000000;
+	background-repeat: repeat;
+	// box-shadow: inset 0 0 600px #2f2b2c;
+    // background-color: #000000;
+    background-image: url("../../img/reviews.png");
 }
-.start {
- 	overflow: auto;
-  	overflow-x: hidden;
-	padding-top: 120px;
- 	max-width: inherit !important;
- 	background-position: center;
- 	background-size: cover;
- 	background-color: #000000;
-}
-.start, footer {
-  background-position: center;
-  background-size: cover;
-  box-shadow: inset 0 0 600px #2f2b2c;
-  background-color: #000000;
-}
-.roccLogoFooter {
-  padding: 150px auto 50px auto;
-  width: 80%;
-  max-width: 350px;
-  height: auto;
+footer {
+  background-image: linear-gradient(to bottom right, $purple, $darkblu);
 }

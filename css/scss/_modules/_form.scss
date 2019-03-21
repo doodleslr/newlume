@@ -1,35 +1,22 @@
 @import "_modules/_bits";
 
 .contact-mini {
+    height: 100%;
     input {
         display: block;
         margin: 10px auto;
     }
     .form-message {
 
-    }
-    button {
-        display: block;
-        margin: 10px auto;
-        &:hover {
-            transform: translateY(-2px);
-        }
     }
 }
 
 .contact-block {
     input {
-        display: block;
+        display: inline-block;
         margin: 10px auto;
     }
     .form-message {
 
-    }
-    button {
-        display: block;
-        margin: 10px auto;
-        &:hover {
-            transform: translateY(-2px);
-        }
     }
 }

@@ -1,2 +1,44 @@
 @import "_modules/_bits";
 
+.home-srv {
+    max-width: 60%;
+    .icon-tray {
+        display: inline-flex;
+        ul {
+            list-style-type: none;
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            li {
+                img {
+                    max-height: 75px;
+                }
+            }
+        }
+    }
+    #srv-info {
+        
+    }
+}
+
+.srv-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    //grid-template-rows: 40px 100px 40px;
+    text-align: center;
+    .srv-col {
+        grid-column: span 4;
+        a {
+            img {
+                max-height: 75px;
+            }
+            h3 {
+
+            }
+            p {
+                
+            }
+        }
+    }
+}

@@ -1,25 +1,54 @@
-main {
- 	max-width: 1000px;
-  	width: 100%;
-  	margin: 0px auto; 
-  	padding-left: 15px;
-  	padding-right: 15px;
+#home-header, .home-map p, #customer-box {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto; 
+    padding: 0px 25px;
 }
 
 #splash {
+    padding-top: 110px;
+    text-align: center;
+    height: 350px;
+    .splash-container {
+        display: block;
+        margin: 10px auto;
+        padding: 25px 0px;
+        img {
+            vertical-align: middle;
+            max-height: 120px;
+        }
+    }
 
+}
+
+#home-header {
+    display: flex;
+    .home-srv {
+        margin: 0;
+    }
+    .home-srv-contact {
+        margin: 0 auto;
+    }
 }
 
 .customer-reviews {
-
+    height: 350px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    #customer-box {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
 }
 
 .home-map {
-
+    p {
+        padding: 25px 0px;
+    }
 }
 
 .home-contact {
-
+    text-align: center;
 }
 
 footer {

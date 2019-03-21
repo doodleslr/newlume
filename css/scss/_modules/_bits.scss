@@ -3,6 +3,13 @@ $yellow: #e5af0d;
 $purple: #3b3355;
 $darkblu: #000022;
 
+//font types
+@mixin main {
+    font-family: 'Raleway', sans-serif;
+}
+@mixin title {
+    font-family:  'Roboto', sans-serif;
+}
 
 //media queries
 $xtra-large:"screen and (min-width: 992px)";
@@ -44,3 +51,4 @@ $xtra-small:"only screen and (max-width: 479px)";
     border-radius: 5px 15px 5px 15px;
 }
 //@include borderRadius();
+// w or wo ();

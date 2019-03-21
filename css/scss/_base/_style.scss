@@ -1,4 +1,10 @@
 @import "_modules/_bits";
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:   #9ca6c9;
@@ -13,4 +19,12 @@
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    #9ca6c9;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    &:hover {
+        transform: translateY(-2px);
+    }
 }
