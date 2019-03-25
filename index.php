@@ -45,9 +45,7 @@
                                 We provide professional, personable tradesmen, exhibiting our trademark courtesy and a friendly and approachable demeanour.
                                 As local Sydney electricians for many years, we have tackled almost any job you can find for us! Our services are in demand across this city’s business and private landscapes, from full setups in professional offices, to simple appliance repair work.
                                 For a full list of our services, click here.</p>
-                        <form action="#">
-                            <button id="home-readMore" type="button" value="Read More">Read More</button>
-                        </form>
+                        <button id="home-readMore" type="button" value="Read More" href="services.php">Read More</button>
                     </div>
                 </div>
                 <div class="home-srv-contact">
